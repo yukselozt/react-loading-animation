@@ -7,14 +7,13 @@ const TableJs = () => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
-      setLoading(false);
-    }, 8000);
+      setLoading(true);
+    }, 3000);
   }, []);
 
-  return loading ? (
-    <HashLoader loading={loading} size={100} color="#123abc" />
+  return !loading ? (
+    <HashLoader loading={!loading} size={100} color="#123abc" />
   ) : (
     <Table bordered responsive="lg">
       <thead>
