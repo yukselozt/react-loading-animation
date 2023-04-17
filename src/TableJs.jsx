@@ -9,7 +9,7 @@ const TableJs = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
-    }, 3000);
+    }, 5000);
   }, []);
 
   return !loading ? (
