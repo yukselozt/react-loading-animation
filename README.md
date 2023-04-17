@@ -1,6 +1,6 @@
 ### `Demo`
 
-![image](./public/video.mp4)
+![image](./public/demo.gif)
 
 In the project directory, you can run:
 
